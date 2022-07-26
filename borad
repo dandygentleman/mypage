@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>게시판</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@400;700&family=Stylish&display=swap');
+    </style> 
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+          <h1>게시판</h1>
+        </div>
+
+        <div class="card-body">
+             <input type="search" placeholder="검색어를 입력하세요."> <a href=""class="search"><img src="loupe.png" alt="검색"></a>
+             <div>
+                  <div class="check">
+                      <input type="checkbox">
+                  </div>
+                  <div class="title">
+                       <a href="view.html">안녕하세요 이것은 게시판 제목입니다.</a>
+                  </div>
+                  <div class="delete">
+                    <button onclick="btn_click(event)">X</button>
+                  </div>
+                </div>
+               <div>
+                  <div class="check">
+                      <input type="checkbox">
+                  </div>
+                  <div class="title">
+                       <a href="view.html">게시판에 제목을 입력합니다.</a>
+                  </div>
+                  <div class="delete">
+                    <button>X</button>
+                  </div>
+                </div>
+                <div>
+                  <div class="check">
+                      <input type="checkbox">
+                  </div>
+                  <div class="title">
+                       <a href="view.html">이곳에 제목을 입력해주세요.</a>
+                  </div>
+                  <div class="delete">
+                    <button>X</button>
+                  </div>
+                </div>
+                <div>
+                  <div class="check">
+                      <input type="checkbox">
+                  </div>
+                  <div class="title">
+                       <a href="view.html">오늘의 날씨는 어떤가요.</a>
+                  </div>
+                  <div class="delete">
+                    <button>X</button>
+                  </div>
+                </div>
+                
+                <ul class="number">
+                     <li><a href="#">&lt;</a></li>
+                     <li><a href="" class="active">1</a></li>
+                     <li><a href="">2</a></li>
+                     <li><a href="">3</a></li>
+                     <li><a href="">4</a></li>
+                     <li><a href="">&gt;</a></li>
+                </ul>
+              </div>
+                <div class="button">
+                     <a href="write.html"><img src="edit.png" alt="글쓰기 버튼"></a> 
+                </div>
+            </div> 
+             <script src="fun.js"></script>
+          </body>
+          </html>
+                
